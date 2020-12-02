@@ -104,6 +104,10 @@
   #define PRUSA_SKR_EXTRUDER_STEPS_PER_UNIT  980
   #define E0_CURRENT                         650
   #define E0_MICROSTEPS                       32
+#elif PRUSA_SKR_E_STEPPER == 5 // TriangleLab 3:1 stepper
+  #define PRUSA_SKR_EXTRUDER_STEPS_PER_UNIT  420
+  #define E0_CURRENT                         550
+  #define E0_MICROSTEPS                       16
 #endif
 
 /**
